@@ -1,0 +1,94 @@
+html {
+  font-family: Roboto, sans-serif;
+ 
+}
+body {
+  background-color: rgb(0 92 183 / 82%);
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 333px;
+  width: 275px;
+  padding: 4px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 20px;
+  margin-right: 5px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#settings-button {
+  background-color: #000000;
+  color: white;
+  font-size: 11px;
+  border: none;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: 11px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center; /* Changed from "space-between" to "center" */
+  width: 100%;
+  margin-top: 20px;
+}
+
+#check-score {
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 100%;
+}
+
+
+button {
+  height: 95px;
+  width: 128px;
+  border-radius: 6px;
+  border: none;
+  background-color: #5cd0fc;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.scorecontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+  background-color: #5cd0fc;
+  border-radius: 6px;
+}
+
+.scoreparagraph {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.scoreheading {
+  font-size: 45px;
+  margin-top: -13px;
+  margin-bottom: -2px;
+}
